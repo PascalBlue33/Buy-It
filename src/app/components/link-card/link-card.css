@@ -1,0 +1,30 @@
+.card{
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    border: 1px black solid;
+    width: 25vw;
+}
+
+.description{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+p{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    border: 1px black solid;
+}
+
+@media  {
+    
+}
