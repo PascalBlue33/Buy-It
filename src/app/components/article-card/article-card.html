@@ -1,9 +1,14 @@
-<div class="card">
-    <img src="https://picsum.photos/1500/1000" alt="Image">
-    <div class="description">
-        <p>Google.com</p>
-        <p>Info 1</p>
-        <p>Info 2</p>
-        <p>Info 3</p>
-    </div>
-</div>
+<a
+  class="card"
+  [routerLink]="['/article', article().id]"
+>
+  <img
+    [src]="article().image"
+    [alt]="article().title"
+  >
+
+  <div class="description">
+    <h2>{{ article().title }}</h2>
+    <p>{{ article().website }}</p>
+  </div>
+</a>

@@ -1,12 +1,7 @@
 <div class="home">
-    <div class="card-container">
-      <app-article-card />
-      <app-article-card />
-      <app-article-card />
-      <app-article-card />
-      <app-article-card />
-      <app-article-card />
-      <app-article-card />
-      <app-article-card />
-    </div>
+  <div class="card-container">
+    @for (article of articles; track article.id) {
+      <app-article-card [article]="article" />
+    }
+  </div>
 </div>

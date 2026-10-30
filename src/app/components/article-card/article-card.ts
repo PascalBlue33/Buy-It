@@ -1,9 +1,13 @@
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
+import { Article } from '../../data/articles';
+import { RouterLink } from '@angular/router';
 
 @Component({
-  imports: [],
+  imports: [RouterLink],
   selector: 'app-article-card',
   styleUrl: 'article-card.css',
   templateUrl: './article-card.html',
 })
-export class ArticleCard {}
+export class ArticleCard {
+  readonly article = input.required<Article>();
+}

@@ -1,7 +1,7 @@
 import { Routes } from '@angular/router';
 
 import { Home } from './pages/home/home';
-import { Seite2 } from './pages/seite2/seite2';
+import {ArticleDetail} from './pages/article-detail/article-detail'
 
 export const routes: Routes = [
   {
@@ -9,7 +9,7 @@ export const routes: Routes = [
     component: Home,
   },
   {
-    path: 'seite2',
-    component: Seite2,
+    path: 'article/:id',
+    component: ArticleDetail,
   },
 ];
