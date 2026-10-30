@@ -9,6 +9,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    padding: 10px;
+    gap: 10px;
 }
 
 img{
@@ -23,8 +25,4 @@ p{
     justify-content: flex-start;
     padding: 10px;
     border: 1px black solid;
-}
-
-@media  {
-    
 }

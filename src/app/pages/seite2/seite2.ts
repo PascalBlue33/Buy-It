@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { LinkCard } from '../../components/link-card/link-card';
+import { ArticleCard } from '../../components/article-card/article-card';
 
 @Component({
-  imports: [RouterLink, LinkCard],
+  imports: [RouterLink, ArticleCard],
   selector: 'app-seite2',
   styleUrl: './seite2.css',
   templateUrl: './seite2.html',

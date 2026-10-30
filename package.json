@@ -1,5 +1,5 @@
 {
-  "name": "link-it",
+  "name": "buy-it",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:Link-It": "node dist/Link-It/server/server.mjs"
+    "serve:ssr:Buy-It": "node dist/Buy-It/server/server.mjs"
   },
   "private": true,
   "packageManager": "npm@11.19.0",

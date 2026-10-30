@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "Link-It": {
+    "Buy-It": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -64,10 +64,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "Link-It:build:production"
+              "buildTarget": "Buy-It:build:production"
             },
             "development": {
-              "buildTarget": "Link-It:build:development"
+              "buildTarget": "Buy-It:build:development"
             }
           },
           "defaultConfiguration": "development"
